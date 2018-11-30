@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/shape_click_key_bg_normal" />
+    <item android:drawable="@drawable/shape_click_key_bg_pressed" android:state_pressed="true" />
+</selector>

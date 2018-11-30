@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">悠管家</string>
+    <string name="chooseSex">请选择性别</string>
+    <string name="no_data">暂无数据</string>
+    <string name="prompt">提示</string>
+    <string name="network_error">网络连接失败，请检查您的网络连接。</string>
+
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+
+    <!--时间选择器相关-->
+    <string name="time_selector_title">请选择时间</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+
+    <string name="login_ing">登录中，请稍后</string>
+    <string name="login_success">登录成功</string>
+    <string name="username_hint">请输入账号</string>
+    <string name="user_password">请输入密码</string>
+    <string name="password_null">密码为空</string>
+    <string name="username_null">用户名为空</string>
+    <string name="account_title">账号管理权限</string>
+    <string name="account_authority_null">用户权限为空</string>
+    <string name="subaccout_commit">完成</string>
+
+    <string name="parking_space_order">车位预约</string>
+    <string name="parking_space_order_cash_pay">现金缴费</string>
+    <!--车位预约-->
+    <string name="parking_space_order_no_use">未使用</string>
+    <string name="parking_space_order_in_use">使用中</string>
+    <string name="parking_space_order_complete">已完成</string>
+    <!--详情-->
+    <string name="plate_number">车牌号</string>
+    <string name="mobile_phone_no">手机号</string>
+    <string name="entry_time">入场时间</string>
+    <string name="stopping_time">已停车时间</string>
+    <string name="duration_hh_mm" formatted="false">%d小时%d分</string>
+    <string name="normal_billing">正常停车计费</string>
+    <string name="parking_cost">费用</string>
+    <string name="SymbolOfRMB">¥ </string>
+    <string name="parking_cost_sum" formatted="false">共计：¥ %s</string>
+    <string name="start_time" formatted="false">开始时间：%s</string>
+    <string name="end_time" formatted="false">结束时间：%s</string>
+    <string name="cost_detail">收费明细：</string>
+    <string name="time_frame">时段</string>
+    <string name="norma_cost_hint">* 不足0.5小时按0.5小时计费，大于0.5小时小于1小时按1小时计费</string>
+    <string name="over_cost_hint">* 不足0.5小时按0.5小时计费, 大于0.5小时小于1小时按1小时费用计费, 费用由两部分组成 (价格*停车时长+1倍*价格*停车时长)</string>
+    <string name="normalParkingTotalHours" formatted="false">正常停车时长：%s小时</string>
+    <string name="normalParkingTotalCost" formatted="false">正常费用共计：%s元</string>
+    <string name="over_billing">违约停车计费：</string>
+    <string name="parking_space_no">车位号</string>
+    <string name="fd_order_time">预约的出入场时间</string>
+    <string name="fd_time">实际的出入场时间</string>
+    <string name="fees">收费</string>
+    <string name="price">价格</string>
+    <string name="duration">停车时长</string>
+    <string name="price_unit">（元/小时）</string>
+    <string name="duration_unit">（时）</string>
+    <string name="cost_unit">（元）</string>
+    <string name="overParkingTotalHours" formatted="false">违约停车时长：%s时</string>
+    <string name="overParkingTotalCost" formatted="false">违约费用共计：%s元</string>
+    <string name="totalParkingTotalHours" formatted="false">总停车时长：%s时</string>
+    <string name="totalParkingTotalCost" formatted="false">总停车费用：%s元</string>
+
+    <!--主界面-->
+    <string name="main_white_list">白名单</string>
+    <string name="main_pay">现金缴费</string>
+    <string name="main_parking">车位预约</string>
+    <string name="main_card">悠停卡</string>
+    <string name="main_total_count">* 共%d个车位</string>
+    <string name="main_in_use">使用中</string>
+    <string name="main_detail_hint">点击查看详情</string>
+
+    <string name="bt_login">登录</string>
+    <string name="goout_login">退出登录</string>
+    <string name="goout_login_insure">您确定退出登录吗？</string>
+    <string name="add_account_premission">添加账号管理权限</string>
+    <string name="tv_cancle">取消</string>
+    <string name="tv_ensure">确定</string>
+    <string name="tv_selsect">已选择0项</string>
+    <string name="select_num">已选择%1$d项</string>
+    <string name="order_recored">车位预约</string>
+    <string name="pay_money">现金缴费</string>
+    <string name="add_account_title">添加账号管理权限</string>
+    <string name="add_account_delect_title">账号管理权限</string>
+    <string name="add_account_message">正在添加用户，请稍后</string>
+    <string name="query_account_message">正在查询用户，请稍后</string>
+    <string name="add_delete">删除</string>
+    <string name="account_delete">您确定删除该账号管理权限吗？</string>
+    <string name="account_edit_msg">编辑中，是否确认退出？</string>
+
+    <!--白名单-->
+    <string name="white_loading">正在加载数据...</string>
+    <string name="white_title">白名单</string>
+    <string name="white_right_add">添加</string>
+    <string name="white_delect_msg">确定删除此白名单信息吗？</string>
+    <string name="white_loadmore_error">获取更多数据失败</string>
+    <string name="white_add_title">白名单添加</string>
+    <string name="white_add_plate_num">车牌号</string>
+    <string name="white_add_new_energy">&#160;&#160;新能源车辆</string>
+    <string name="white_add_user_time">使用期限</string>
+    <string name="white_add_create_time">自定义时间</string>
+    <string name="white_add_commit">完成</string>
+    <string name="white_add_commit_msg">正在提交数据...</string>
+    <string name="white_add_normal_num">陕</string>
+    <string name="white_add_input_plate">请输入正确的车牌号码</string>
+    <string name="white_add_input_date">请输入正确的时间</string>
+    <string name="white_add_select_premission">请选择使用期限</string>
+    <string name="white_add_detail_title">白名单详情</string>
+    <string name="white_detail_end_time" formatted="false">%s 到期</string>
+    <string name="white_detail_end_untime" formatted="false">%s 已到期</string>
+    <string name="parking_card">悠停卡</string>
+
+    <!-- 数字和字符 -->
+    <string name="filter_vcode">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="card_type">卡类型</string>
+    <string name="purchase_time">购卡时间</string>
+    <string name="card_detail_end_time">到期时间</string>
+    <string name="residue_time" formatted="false">剩%d天</string>
+    <string name="parking_card_detail">悠停卡详情</string>
+    <string name="no_authority">您没有该权限</string>
+
+    <!--  现金缴费  -->
+    <string name="cash_pay_search_hint">搜索车牌号</string>
+    <string name="cash_pay_search_plate">车牌号为空</string>
+    <string name="cash_pay_title">现金缴费</string>
+    <string name="cash_pay_no_use">未使用</string>
+    <string name="cash_pay_complete">已完成</string>
+    <string name="cash_pay_has_cancle">已取消</string>
+    <string name="cash_pay_using">使用中</string>
+    <string name="cash_pay_money">现金收费</string>
+    <string name="cash_pay_detail_title">缴费完成详情</string>
+    <string name="cash_pay_detail_uing">使用中详情</string>
+    <string name="cash_pay_goin_time">入场时间</string>
+    <string name="cash_pay_alger_time">已停车时间</string>
+    <string name="cash_pay_hour_second">%1$d小时%2$d分钟</string>
+    <string name="cash_pay_hour">%1$d小时</string>
+    <string name="cash_pay_second">%1$d分钟</string>
+    <string name="cash_pay_total_money">共计:￥%1$s</string>
+
+
+    <!--被挤下线，重新登录提示-->
+    <string name="reLoginPrompt">您的账号在其他设备登录，请重新登录！</string>
+    <string name="password_type">请输入账号密码（字母+数字共六个字符）</string>
+    <string name="username_type">请输入账号名称（字母+数字共六个字符）</string>
+
+    <string name="enter_price">您是否确认收费？</string>
+
+</resources>

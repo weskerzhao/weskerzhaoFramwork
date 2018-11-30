@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/style_bottom_dialog_ll_outer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30px"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_task_participant"
+            android:background="@mipmap/btn_top_arc"
+            android:text="任务参与人"
+            style="@style/style_bottom_dialog_tv"/>
+
+        <ImageView
+            style="@style/style_bottom_dialog_line"/>
+
+        <TextView
+            android:id="@+id/tv_urge_task"
+            android:background="@mipmap/btn_center_arc"
+            android:text="催办任务"
+            style="@style/style_bottom_dialog_tv"/>
+
+
+        <ImageView
+            style="@style/style_bottom_dialog_line"/>
+        <TextView
+            android:id="@+id/tv_edit_task"
+            android:background="@mipmap/btn_center_arc"
+            android:text="编辑任务"
+            style="@style/style_bottom_dialog_tv"/>
+
+
+        <ImageView
+            android:id="@+id/line_below_edit_task"
+            style="@style/style_bottom_dialog_line"/>
+        <TextView
+            android:id="@+id/tv_cancel_task"
+            android:background="@mipmap/btn_bottom_arc"
+            android:text="取消任务"
+            style="@style/style_bottom_dialog_tv"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:layout_marginTop="20px"
+        android:background="@mipmap/btn_top_arc"
+
+        android:text="取消"
+        style="@style/style_bottom_dialog_tv"/>
+
+</LinearLayout>

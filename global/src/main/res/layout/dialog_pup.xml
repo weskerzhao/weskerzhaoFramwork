@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/windowBackground"
+    >
+
+    <TextView
+        android:id="@+id/tv_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="取消"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:text="@string/tv_selsect"
+        android:textColor="@color/text_orange"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_ensure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="20dp"
+        android:text="完成"
+        android:textColor="@color/text_orange"
+        android:textSize="18sp"/>
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/tv_cancle"
+        android:background="@color/dividerLine"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_line"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            >
+
+            <RelativeLayout
+                android:id="@+id/white_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_10"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="gone"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/icon_qx_white_list"/>
+
+                <CheckBox
+                    android:id="@+id/white_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/iv_one"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="@dimen/dp_4"
+                    android:layout_marginTop="@dimen/dp_4"
+                    android:background="@drawable/shape_check_bg"
+                    android:button="@null"
+                    android:clickable="false"
+                    android:src="@mipmap/icon_qx_check"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_one"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="白名单"
+                    android:textSize="14sp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pay_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_10"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="gone"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/icon_qx_pay"/>
+
+                <CheckBox
+                    android:id="@+id/pay_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/iv_pay"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="@dimen/dp_4"
+                    android:layout_marginTop="@dimen/dp_4"
+                    android:background="@drawable/shape_check_bg"
+                    android:button="@null"
+                    android:clickable="false"
+                    android:src="@mipmap/icon_qx_check"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_pay"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="现金缴费"
+                    android:textSize="14sp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/order_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_10"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="gone"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_order"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/icon_qx_record"/>
+
+                <CheckBox
+                    android:id="@+id/order_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/iv_order"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="@dimen/dp_4"
+                    android:layout_marginTop="@dimen/dp_4"
+                    android:background="@drawable/shape_check_bg"
+                    android:button="@null"
+                    android:clickable="false"
+                    android:src="@mipmap/icon_qx_check"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_order"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="车位预约"
+                    android:textSize="14sp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/card_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_10"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="gone"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/icon_qx_card"/>
+
+                <CheckBox
+                    android:id="@+id/card_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/iv_card"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="@dimen/dp_4"
+                    android:layout_marginTop="@dimen/dp_4"
+                    android:background="@drawable/shape_check_bg"
+                    android:button="@null"
+                    android:clickable="false"
+                    android:src="@mipmap/icon_qx_check"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_card"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="悠停卡"
+                    android:textSize="14sp"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>
