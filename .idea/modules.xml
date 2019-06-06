@@ -3,10 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RecyclerViewLibrary/RecyclerViewLibrary.iml" filepath="$PROJECT_DIR$/RecyclerViewLibrary/RecyclerViewLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RecyclerViewLibrary/RecyclerViewLibrary.iml" filepath="$PROJECT_DIR$/RecyclerViewLibrary/RecyclerViewLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StudioProject.iml" filepath="$PROJECT_DIR$/StudioProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/global/global.iml" filepath="$PROJECT_DIR$/global/global.iml" />
+      <module fileurl="file://$PROJECT_DIR$/global/global.iml" filepath="$PROJECT_DIR$/global/global.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login/login.iml" filepath="$PROJECT_DIR$/login/login.iml" />
       <module fileurl="file://$PROJECT_DIR$/login/login.iml" filepath="$PROJECT_DIR$/login/login.iml" />
       <module fileurl="file://$PROJECT_DIR$/versionupdatelibrary/versionupdatelibrary.iml" filepath="$PROJECT_DIR$/versionupdatelibrary/versionupdatelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/versionupdatelibrary/versionupdatelibrary.iml" filepath="$PROJECT_DIR$/versionupdatelibrary/versionupdatelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/waterbase/waterbase.iml" filepath="$PROJECT_DIR$/waterbase/waterbase.iml" />
       <module fileurl="file://$PROJECT_DIR$/waterbase/waterbase.iml" filepath="$PROJECT_DIR$/waterbase/waterbase.iml" />
       <module fileurl="file://$PROJECT_DIR$/weskerzhaoFramwork.iml" filepath="$PROJECT_DIR$/weskerzhaoFramwork.iml" />
     </modules>
